@@ -1,0 +1,22 @@
+git init # inside of the directory to intialize repository
+git remote add origin https://github.com/you/project # hook up local directory with github repo
+git add # add files to track in repository
+git add . # adds all files (can add inidivual files or even directories
+git commit # commit tracker files
+git commit -am "Message" # -a (all files) -m (include message)
+git push # upload files
+git push origin master
+
+git pull # downloa files
+
+
+other commands
+git status # check the status of the directory
+git reset # removes added files to track
+
+gitignore
+*.txt # ignore all .txt files
+
+configure
+git config --global user.name "Firstname Lastname"
+git config --global user.email "name@domain.com"
